@@ -1,9 +1,9 @@
 // you need to replace - query_name_ & QueryName_ accross this function
 
-const QUERY_NAME = gql`QUERY_PLACEHOLDER`;
+const __QUERY_NAME = gql`QUERY_PLACEHOLDER`;
 
 export const QueryName_Action = () => {
-    const [queryFn, query_name_Status] = useLazyQuery(QUERY_NAME, {
+    const [queryFn, query_name_Status] = useLazyQuery(__QUERY_NAME, {
         fetchPolicy: 'cache-and-network',
         nextFetchPolicy: 'cache-and-network',
     });
