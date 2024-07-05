@@ -1,4 +1,4 @@
-// you need to replace - mutation_name_ & MutationName_ accross this function
+// you need to replace - __MUTATION_NAME, mutation_name_ & MutationName_ accross this function
 
 const __MUTATION_NAME = gql`MUTATION_PLACEHOLDER`;
 
