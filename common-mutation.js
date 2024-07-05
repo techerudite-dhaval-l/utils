@@ -1,9 +1,9 @@
 // you need to replace - mutation_name_ & MutationName_ accross this function
 
-const MUTATION_NAME = gql`MUTATION_PLACEHOLDER`;
+const __MUTATION_NAME = gql`MUTATION_PLACEHOLDER`;
 
 export const MutationName_Action = () => {
-    const [mutateFn, mutation_name_Status] = useMutation(MUTATION_NAME);
+    const [mutateFn, mutation_name_Status] = useMutation(__MUTATION_NAME);
 
     const initMutationName_ = (data, successCallback, errorCallback) => {
         mutateFn({
