@@ -6,3 +6,14 @@ function getCookie(name = 'faces_access_token') {
 }
 
 getCookie();
+
+function setCookie(value) {
+    const name = 'faces_access_token';
+    const date = new Date();
+    date.setTime(date.getTime() + (1000 * 24 * 60 * 60 * 1000));
+    const expires = "expires=" + date.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";path=/";
+}
+
+// Usage
+setCookie('your_token_value');
