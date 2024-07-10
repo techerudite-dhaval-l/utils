@@ -13,7 +13,7 @@ export const MutationName_Action = () => {
                 // console.log('mutation_name_--responseData', responseData)
                 const resData = responseData.data.mutation_name_;
                 if (resData.success) {
-                    successCallback && successCallback(resData.data);
+                    successCallback && successCallback(resData);
                 } else {
                     errorCallback && errorCallback(responseData);
                 }
