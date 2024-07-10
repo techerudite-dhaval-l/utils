@@ -1,4 +1,4 @@
-// you need to replace - query_name_ & QueryName_ accross this function
+// you need to replace - __QUERY_NAME, query_name_ & QueryName_ accross this function
 
 const __QUERY_NAME = gql`QUERY_PLACEHOLDER`;
 
