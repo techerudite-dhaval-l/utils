@@ -15,7 +15,7 @@ export const MutationName_Action = () => {
                 if (resData.success) {
                     successCallback && successCallback(resData);
                 } else {
-                    errorCallback && errorCallback(responseData);
+                    errorCallback && errorCallback(resData);
                 }
             })
             .catch((err) => {
