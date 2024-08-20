@@ -1,0 +1,19 @@
+Ryft connected, multiple locations, multiple services
+charliemartin01@yopmail.com
+Charliemartin01@
+
+Only stripe connected, dashboard onboarding completed
+emilyb01@yopmail.com
+Password01@
+
+Only dashboard onboarding completed, no stripe or ryft
+heta01@yopmail.com
+Hetapatel01@
+
+Only ryft connected, dashboard onboarding completed, only 1 location & 1 service
+samson@yopmail.com
+Charliemartin01@
+
+Stripe and ryft both connect, multiple locatons, multiple services
+nonaj14@yopmail.com
+123456
