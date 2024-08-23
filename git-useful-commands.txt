@@ -1,0 +1,7 @@
+Git useful commands
+
+Print your current working branch on git command
+git rev-parse --abbrev-ref HEAD
+
+Print git branches by most recently used order
+git branch --sort=-committerdate

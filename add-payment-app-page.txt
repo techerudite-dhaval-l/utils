@@ -1,7 +1,8 @@
+------------for no show-------------
 local === https://localhost:3000/take-payment-app/26349?tip=0&cfr_id=28551&session_id=ps_01J4V5845TE7CW2A7EYFM4MNKQ_secret_108d9a83-f71b-425b-a117-0376769389d0
 staging === https://staging.facesconsent.com/sprint4/take-payment-app/26342?tip=0&cfr_id=28544&session_id=pi_3PlnFyCGxyhBxnLY0mjrVHn1&stripe=1
 
-for stripe - add &stripe=1
 
-
+------------for take payment-------------
 https://staging.facesconsent.com/sprint4/take-payment-app/<enter_appointment_id>?cfr_id=<enter_cfr_id>&tip=<enter_tip>
+for stripe - add &stripe=1
